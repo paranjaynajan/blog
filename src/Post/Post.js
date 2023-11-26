@@ -252,7 +252,7 @@ findData()
            
                 return <Card sx={{ marginTop: "20px" }} key={index} >
                   <Box sx={{ display: "flex", justifyContent: "flex-start" }}>
-                    <Avatar alt="Remy Sharp" src={require("/Users/paranjaynajan/Desktop/Learning/Blog/blog/src/Assets/user.jpeg")} sx={{ height: '110px', width: '100px' }} />
+                    <Avatar alt="Remy Sharp" src={require("../Assets/user.jpeg")} sx={{ height: '110px', width: '100px' }} />
                     <Box>
                       <Typography variant="h5" sx={{ ml: 2, mt: 3, fontWeight: "bold" }} >
                      

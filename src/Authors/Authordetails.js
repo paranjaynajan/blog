@@ -134,7 +134,7 @@ function Authordetails() {
             >
                 <Box sx=
                     {{ display: "flex", justifyContent:"center" }} >
-                    <Avatar alt="" src={require("/Users/paranjaynajan/Desktop/Learning/Blog/blog/src/Assets/user.jpeg")} sx={{ height: '300px', width: '300px' }} />
+                    <Avatar alt="" src={require("../Assets/user.jpeg")} sx={{ height: '300px', width: '300px' }} />
 
                 </Box>
 

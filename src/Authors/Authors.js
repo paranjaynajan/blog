@@ -69,7 +69,7 @@ const sendetails=(data)=>{
          {populateauthors?.map((data,i)=>{
              return  <Card sx={{margin:"10px"}} key={i} >
               <Box sx={{ display: "flex", justifyContent: "center" }}>
-                  <Avatar alt="Remy Sharp" src={require("/Users/paranjaynajan/Desktop/Learning/Blog/blog/src/Assets/user.jpeg")} sx={{ height: '150px', width: '150px' }} />
+                  <Avatar alt="Remy Sharp" src={require("../Assets/user.jpeg")} sx={{ height: '150px', width: '150px' }} />
               </Box>
               <CardContent >
                   <Box >

@@ -128,7 +128,7 @@ const Postdetails = () => {
               likepost.map((data, index) => {
                 return <Box key={index} sx={{ borderBottom: 1, borderColor: 'divider', p: 3 }}>
                   <Box sx={{ display: "flex", justifyContent: "flex-start" }}>
-                    <Avatar alt="Remy Sharp" src={require("/Users/paranjaynajan/Desktop/Learning/Blog/blog/src/Assets/user.jpeg")} sx={{ height: '50px', width: '50px' }} />
+                    <Avatar alt="Remy Sharp" src={require("../Assets/user.jpeg")} sx={{ height: '50px', width: '50px' }} />
                     <Box>
                       <Typography variant="h5" sx={{ ml: 2, fontWeight: "bold" }} >
                         {data.name}
@@ -147,7 +147,7 @@ const Postdetails = () => {
               }) : commentpost.map((data, index) => {
                 return <Box key={index} sx={{ borderBottom: 1, borderColor: 'divider', p: 3 }}>
                   <Box sx={{ display: "flex", justifyContent: "flex-start" }}>
-                    <Avatar alt="Remy Sharp" src={require("/Users/paranjaynajan/Desktop/Learning/Blog/blog/src/Assets/user.jpeg")} sx={{ height: '50px', width: '50px' }} />
+                    <Avatar alt="Remy Sharp" src={require("../Assets/user.jpeg")} sx={{ height: '50px', width: '50px' }} />
                     <Box>
                       <Typography variant="h5" sx={{ ml: 2, fontWeight: "bold" }} >
                         {data.name}

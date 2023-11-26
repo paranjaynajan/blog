@@ -13,7 +13,7 @@ function BlogDesc() {
                 <Grid item lg={6}>
                     <Box >
                         <Box sx={{textAlign:"center"}}>
-                            <img src={require("/Users/paranjaynajan/Desktop/Learning/Blog/blog/src/Assets/user.jpeg")} style={{
+                            <img src={require("../../Assets/user.jpeg")} style={{
                                 height: "250px",
                                 width: "250px",
                                 border: "1px solid black"}} />
